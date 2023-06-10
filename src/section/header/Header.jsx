@@ -20,6 +20,7 @@ function Header() {
       </div>
       <div className='header_socials'>
       {
+        // eslint-disable-next-line jsx-a11y/aria-role
         data.map(item => <a key = {item.id} href={item.link} target = '_blank' role='noopener noreferrer' rel="noreferrer">
         {item.icon} </a> )
       }
