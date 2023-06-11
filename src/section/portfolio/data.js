@@ -10,7 +10,7 @@ const data = [
     title: "My Portfolio",
     link: '#header',
     description:
-      "Handy tool belt to create amazing AR components in a React app, with redux integration via middleware️",
+      "Here is my portfolio website coded with pure Reactjs and CSS3",
     Image: <img src={photo1} alt='' className='work_portrait'/>,
   },
   {
@@ -18,7 +18,7 @@ const data = [
     title: "Interior Design website",
     link: 'https://interdesign.netlify.app/',
     description:
-      "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land 🔥️",
+      "This website is developed with boostrapand i can still design it for you with React.🔥️",
       Image: <img src={photo2} alt='' className='work_portrait' />,
   },
   {
@@ -26,7 +26,7 @@ const data = [
     title: "Tailoring Website",
     link: 'https://mfworld.netlify.app/',
     description:
-      "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
+      "Here is a website where you can show case your product, i designed this one and i can still design  for you.",
       Image: <img src={photo3} alt='' className='work_portrait'/>,
   },
   {
@@ -34,7 +34,7 @@ const data = [
     title: "Background Slide",
     link: 'https://slideok54.netlify.app/',
     description:
-      "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
+      "Background slider designed with boostrap.",
       Image: <img src={photo4} alt='' className='work_portrait'/>,
   },
 ];

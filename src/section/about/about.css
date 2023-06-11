@@ -77,6 +77,7 @@
        display: block;
         gap: 0.5rem;
         height: fit-content;
+        margin: 4px;
     }
 
     .about_cards{

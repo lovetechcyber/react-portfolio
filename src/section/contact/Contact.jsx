@@ -1,9 +1,7 @@
 import "./contact.css";
-import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 function Contact() {
-  const refForm = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -12,7 +10,7 @@ function Contact() {
       .sendForm(
         "service_5rwshh3",
         "template_2ztkw6r",
-        refForm.current,
+        e.target,
         "-RdXst9KNRRWWkx7m"
       )
       .then(
