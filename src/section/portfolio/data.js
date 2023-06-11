@@ -10,7 +10,7 @@ const data = [
     title: "My Portfolio",
     link: '#header',
     description:
-      "Here is my portfolio website coded with pure Reactjs and CSS3",
+      "Here is my portfolio website designed with pure Reactjs and CSS3",
     Image: <img src={photo1} alt='' className='work_portrait'/>,
   },
   {
@@ -18,7 +18,7 @@ const data = [
     title: "Interior Design website",
     link: 'https://interdesign.netlify.app/',
     description:
-      "This website is developed with boostrapand i can still design it for you with React.🔥️",
+      "This website is designed with boostrap and I can still design it for you with React.🔥️",
       Image: <img src={photo2} alt='' className='work_portrait' />,
   },
   {
@@ -26,7 +26,7 @@ const data = [
     title: "Tailoring Website",
     link: 'https://mfworld.netlify.app/',
     description:
-      "Here is a website where you can show case your product, i designed this one and i can still design  for you.",
+      "Here is a website where you can show case your product, I designed this site and i can still design  for you.",
       Image: <img src={photo3} alt='' className='work_portrait'/>,
   },
   {
